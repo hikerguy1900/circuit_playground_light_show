@@ -1,0 +1,19 @@
+{
+    "name": "circuit_playground_light_show",
+    "description": "",
+    "dependencies": {
+        "circuit-playground": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "adafruit"
+    ],
+    "preferredEditor": "tsprj"
+}
