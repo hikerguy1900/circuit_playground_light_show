@@ -240,7 +240,7 @@ forever(function () {
 })
 ```
 
-## Finish
+### Finish
 Let's simulate! Click the, "A", button to see show your LEDs
 beheave. As you click the, "A", button you should see the LED
 color change from red, to blue, and then turn off. Once you are
