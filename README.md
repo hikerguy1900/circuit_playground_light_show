@@ -158,12 +158,6 @@ You have some experience with programming. So we can go
 a little faster now. If you need help just click
 on the wise old owl to the left for a hint.
 
-We are also going to use the simulator a lot to check our
-progress. The simulator is always there to the left
-anytime you want to see what your program does. And, don't
-forget about slow-mo mode (snail) to see just which block
-of your program is running.
-
 ### Step
 From ``||logic.Logic||`` drag a ``||logic.if true then||``
 inside of the ``||loops.forever||`` block that is aready
@@ -193,10 +187,10 @@ forever(function () {
 ```
 
 ### Step
-Click on the + sign at the bottom of your if block once.
+Click on the + sign at the bottom of your if block twice.
 Put a ``||logic.0 = 0||`` in the new "else if" statement.
 Then replace the left 0 with ``||variables.button_count||``.
-Replace all of the 0 with 2.
+Replace the 0 with 2.
 ```blocks
 forever(function () {
     if (button_count == 1) {
@@ -209,8 +203,9 @@ forever(function () {
 })
 ```
 ### Step
-Drag a ``||light.showRing()||`` in to all of the "else if"
-blocks but not the else.
+Drag a ``||light.showRing()||`` into the "else if"
+blocks but not the else. Change all of the LEDs for this
+``||light.showRing()||`` to blue.
 
 ```blocks
 forever(function () {
@@ -228,6 +223,7 @@ forever(function () {
 ```
 ### Step
 Drag a ``||light.clear||`` into the "else" block.
+
 ```blocks
 forever(function () {
     if (button_count == 1) {
@@ -245,35 +241,8 @@ forever(function () {
 ```
 
 ## Finish
-
-
-> Open this page at [https://hikerguy1900.github.io/circuit_playground_light_show/](https://hikerguy1900.github.io/circuit_playground_light_show/)
-
-## Use as Extension
-
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://makecode.adafruit.com/](https://makecode.adafruit.com/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/hikerguy1900/circuit_playground_light_show** and import
-
-## Edit this project ![Build status badge](https://github.com/hikerguy1900/circuit_playground_light_show/workflows/MakeCode/badge.svg)
-
-To edit this repository in MakeCode.
-
-* open [https://makecode.adafruit.com/](https://makecode.adafruit.com/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/hikerguy1900/circuit_playground_light_show** and click import
-
-## Blocks preview
-
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
-
-![A rendered view of the blocks](https://github.com/hikerguy1900/circuit_playground_light_show/raw/master/.github/makecode/blocks.png)
-
-#### Metadata (used for search, rendering)
-
-* for PXT/adafruit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+Let's simulate! Click the, "A", button to see show your LEDs
+beheave. As you click the, "A", button you should see the LED
+color change from red, to blue, and then turn off. Once you are
+happy with the simulation try downloading the program to your
+Circuit Playground Express.
